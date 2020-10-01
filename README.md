@@ -3,7 +3,7 @@
 ## Getting Started
 This repository aims to assist you in beginning work on a MERN stack application with a solid file structure as a foundation. To get started make a copy of this template repo for your project teams.
 
-Since this project will hold both the client application and the server application there will be node modules in two different places. First run `npm install` from the root. After this you will run `npm run dev` from the root. From now on run this command anytime you want to install all modules again. This is a script we have defined in package.json .
+Since this project will hold both the client application and the server application there will be node modules in two different places. First run `npm install` from the root. After this you will run `npm run dev` from the root to run conncurrently the server and the client. From now on run this command anytime you want to install all modules again. This is a script we have defined in package.json .
 
 
 ## File structure
@@ -30,18 +30,18 @@ Since this project will hold both the client application and the server applicat
 
 In the project directory, you can run:
 
-### `npm run-script dev`
+### `npm run dev`
 
 Runs both the client app and the server app in development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view the client in the browser.
+Open [http://localhost:3000](http://localhost:5000) to view the client in the browser.
 
-### `npm run-script client`
+### `npm run client`
 
 Runs just the client app in development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view the client in the browser.
 
 
-### `npm run-script server`
+### `npm run index`
 
 Runs just the server in development mode.<br>
 
